@@ -167,3 +167,15 @@ main h2 {
 .card:hover img {
     scale: 1.2;
 }
+
+@media(width <=900px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media(width <=620px) {
+    .card {
+        width: 98%;
+    }
+}
